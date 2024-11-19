@@ -2,7 +2,7 @@ Name: A Ahil Santo
 
 Register Number: 24900087
 
-# FULL_ADDER_SUBTRACTOR
+# EXP4:FULL ADDER AND SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
