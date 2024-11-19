@@ -1,3 +1,7 @@
+Name: A Ahil Santo
+
+Register Number: 24900087
+
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
@@ -47,9 +51,26 @@ Write the detailed procedure here
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
+```
+module fadd(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+wire w1,w2,w3;
+assign sum=a^b^c;
+assign w1=a&b;
+assign w2=b&c;
+assign w3=c&a;
+assign carry=w1|w2|w3;
+endmodule 
+```
+
 **RTL Schematic**
 
+![hulladder rtl circuit](https://github.com/user-attachments/assets/9ec03764-44ef-4e18-a3b6-062f20eb750d)
+
 **Output Timing Waveform**
+
+![Screenshot (13)](https://github.com/user-attachments/assets/f5bc93f4-4436-44ad-ba09-69ef713dcbd2)
 
 **Result:**
 
